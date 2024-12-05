@@ -1,0 +1,3 @@
+DEVICE_PATH := $(PROJDIR)/Device/$(DEVICE)
+INCDIR += -I$(DEVICE_PATH)
+CSRC += $(DEVICE_PATH)/vif_info.c

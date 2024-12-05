@@ -1,0 +1,4 @@
+RTT_PATH = $(PROJDIR)/Drivers/RTT
+INCDIR += -I$(RTT_PATH)
+CSRC += $(RTT_PATH)/SEGGER_RTT.c \
+	$(RTT_PATH)/SEGGER_RTT_printf.c \
